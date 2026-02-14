@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "main": "dist/server.js",
+  "bin": {
+    "mcp-shell-server": "dist/server.js"
+  },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "prepare": "tsc"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
