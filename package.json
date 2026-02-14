@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "prepare": "tsc"
+    "postinstall": "tsc"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
