@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "main": "dist/server.js",
+  "bin": {
+    "mcp-shell-server": "bin/server.js"
+  },
   "scripts": {
     "build": "tsc && cp dist/server.js bin/server.js",
     "start": "node dist/server.js"
